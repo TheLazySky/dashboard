@@ -1,10 +1,17 @@
-import './App.css';
+import './App.scss';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import './App.scss'
+
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+<h1 className="header">
+  
+  <div>Lazy's Dashboard</div></h1>
+  
   );
 }
 
